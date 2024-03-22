@@ -39,6 +39,7 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
+<<<<<<< HEAD
       <version>RELEASE</version>
       <scope>test</scope>
     </dependency>
@@ -46,6 +47,9 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
       <version>RELEASE</version>
+=======
+      <version>5.8.1</version>
+>>>>>>> 64c51d5a05dac4f7ffba8f760ce220f62ba3b42a
       <scope>test</scope>
     </dependency>
   </dependencies>

@@ -9,5 +9,8 @@
         <module name="questionnaire_sme" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="questionnaire_sme" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

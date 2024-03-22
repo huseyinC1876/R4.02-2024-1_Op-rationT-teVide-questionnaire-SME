@@ -8,5 +8,4 @@ public interface IQuestion {
 
     public QuestionDTO creerQuestion(String[] ligne) throws MissingArgumentException, WrongArgumentTypeException;
 
-
 }

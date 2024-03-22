@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/etudiants/info/vcassirame/prive/S2/R4.02-2024-1_OperationTeteVide-questionnaire-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/CannotReadFileException.java
 /home/etudiants/info/vcassirame/prive/S2/R4.02-2024-1_OperationTeteVide-questionnaire-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/entities/dto/QuestionDTO.java
 /home/etudiants/info/vcassirame/prive/S2/R4.02-2024-1_OperationTeteVide-questionnaire-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/entities/dto/QuestionnaireDTO.java
@@ -10,3 +11,17 @@
 /home/etudiants/info/vcassirame/prive/S2/R4.02-2024-1_OperationTeteVide-questionnaire-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/services/interfaces/IQuestion.java
 /home/etudiants/info/vcassirame/prive/S2/R4.02-2024-1_OperationTeteVide-questionnaire-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/FileNotAvailableException.java
 /home/etudiants/info/vcassirame/prive/S2/R4.02-2024-1_OperationTeteVide-questionnaire-SME/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/MissingArgumentException.java
+=======
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/MissingArgumentException.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/services/interfaces/IQuestionnaire.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/EmptyFileException.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/enumerate/Difficulte.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/enumerate/Langue.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/entities/dto/QuestionnaireDTO.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/WrongArgumentTypeException.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/FileNotAvailableException.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/CannotReadFileException.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/entities/dto/QuestionDTO.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/services/interfaces/IQuestion.java
+/home/etudiants/info/slopes/eclipse-workspace/questionnaire_sme/src/main/java/org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/App.java
+>>>>>>> 64c51d5a05dac4f7ffba8f760ce220f62ba3b42a

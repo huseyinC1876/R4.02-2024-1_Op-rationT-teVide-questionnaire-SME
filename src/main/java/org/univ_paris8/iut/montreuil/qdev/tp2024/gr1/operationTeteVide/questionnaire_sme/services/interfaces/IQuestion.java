@@ -6,6 +6,7 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionn
 
 public interface IQuestion {
 
-    public QuestionDTO creerQuestion(String ligne) throws MissingArgumentException, WrongArgumentTypeException;
+    public QuestionDTO creerQuestion(String[] ligne) throws MissingArgumentException, WrongArgumentTypeException;
+
 
 }

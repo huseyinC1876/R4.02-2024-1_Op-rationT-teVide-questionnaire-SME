@@ -28,7 +28,8 @@ public class QuestionnaireService implements IQuestionnaire {
         }
         catch (IOException e) {
             e.printStackTrace();
-        } catch (MissingArgumentException | WrongArgumentTypeException e) {
+        }
+        catch (MissingArgumentException | WrongArgumentTypeException e) {
             throw new RuntimeException(e);
         }
 

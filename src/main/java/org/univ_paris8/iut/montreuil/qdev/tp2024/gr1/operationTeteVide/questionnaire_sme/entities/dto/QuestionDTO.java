@@ -1,20 +1,23 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.entities.dto;
 
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.utils.enumerate.Difficulte;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.utils.enumerate.Langue;
+
 import java.util.Objects;
 
 public class QuestionDTO {
 
     private int numQuestion;
-    private String langue;
+    private Langue langue;
     private String libelle;
     private String reponse;
-    private int difficulte;
+    private Difficulte difficulte;
     private String explication;
     private String reference;
 
 
 
-    public QuestionDTO(int numQuestion, String langue, String libelle, String reponse, int difficulte, String explication, String reference){
+    public QuestionDTO(int numQuestion, Langue langue, String libelle, String reponse, Difficulte difficulte, String explication, String reference){
         this.numQuestion = numQuestion;
         this.langue = langue;
         this.libelle = libelle;
@@ -28,7 +31,7 @@ public class QuestionDTO {
         return numQuestion;
     }
 
-    public String getLangue() {
+    public Langue getLangue() {
         return langue;
     }
 
@@ -40,7 +43,7 @@ public class QuestionDTO {
         return reponse;
     }
 
-    public int getDifficulte() {
+    public Difficulte getDifficulte() {
         return difficulte;
     }
 
@@ -56,7 +59,7 @@ public class QuestionDTO {
         this.numQuestion = numQuestion;
     }
 
-    public void setLangue(String langue) {
+    public void setLangue(Langue langue) {
         this.langue = langue;
     }
 
@@ -68,7 +71,7 @@ public class QuestionDTO {
         this.reponse = reponse;
     }
 
-    public void setDifficulte(int difficulte) {
+    public void setDifficulte(Difficulte difficulte) {
         this.difficulte = difficulte;
     }
 

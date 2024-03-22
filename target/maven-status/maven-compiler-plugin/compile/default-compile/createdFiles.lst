@@ -1,1 +1,12 @@
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/MissingArgumentException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/services/interfaces/IQuestion.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/entities/dto/QuestionnaireDTO.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/services/interfaces/IQuestionnaire.class
 org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/App.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/CannotReadFileException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/FileNotAvailableException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/entities/dto/QuestionDTO.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/WrongArgumentTypeException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/enumerate/Difficulte.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/exception/EmptyFileException.class
+org/univ_paris8/iut/montreuil/qdev/tp2024/gr1/operationTeteVide/questionnaire_sme/utils/enumerate/Langue.class

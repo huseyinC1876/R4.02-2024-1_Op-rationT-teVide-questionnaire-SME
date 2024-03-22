@@ -7,12 +7,14 @@ import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionn
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.utils.exception.MissingArgumentException;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.utils.exception.WrongArgumentTypeException;
 
+import java.util.Objects;
+
 public class QuestionService implements IQuestion {
 
     @Override
     public QuestionDTO creerQuestion(String[] ligne) throws MissingArgumentException, WrongArgumentTypeException {
         Difficulte difficulte = (Integer.parseInt(ligne[5]) == 1)? Difficulte.FACILE : (Integer.parseInt(ligne[5]) == 2)? Difficulte.INTERMEDIARE : Difficulte.DIFFICILE;
-        Langue langue = (ligne[2] == "fr") ? Langue.FR : null;
+        Langue langue = (Objects.equals(ligne[2], "fr")) ? Langue.FR : null;
 
         QuestionDTO question = new QuestionDTO(
                 Integer.parseInt(ligne[1]),

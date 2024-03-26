@@ -12,7 +12,7 @@ public class QuestionService implements IQuestion {
     @Override
     public QuestionDTO creerQuestion(String[] ligne) throws MissingArgumentException, WrongArgumentTypeException {
         Difficulte difficulte = (Integer.parseInt(ligne[5]) == 1)? Difficulte.FACILE : (Integer.parseInt(ligne[5]) == 2)? Difficulte.INTERMEDIARE : Difficulte.DIFFICILE;
-        Langue langue = (ligne[2] == "fr") ? Langue.FR : null;
+        Langue langue = (ligne[2].equals("fr")) ? Langue.FR : null;
 
         QuestionDTO question = new QuestionDTO(
                 Integer.parseInt(ligne[1]),

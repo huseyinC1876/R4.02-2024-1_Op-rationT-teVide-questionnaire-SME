@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class IQuestionnaireTestFileNotAvailable {
 
-    private IQuestionnaireImplMockTestFileNotAvailable iQuestionnaire = new IQuestionnaireImplMockTestFileNotAvailable();
+    private IQuestionnaire iQuestionnaire = new IQuestionnaireImplMockTestFileNotAvailable();
 
     @Test
     public void testChargerQuestionnaireFileNotAvailable() throws FileNotAvailableException, EmptyFileException, CannotReadFileException {

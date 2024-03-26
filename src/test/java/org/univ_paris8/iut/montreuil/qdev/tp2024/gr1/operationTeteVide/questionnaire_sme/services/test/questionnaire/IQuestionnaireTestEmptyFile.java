@@ -17,13 +17,13 @@ import java.util.ArrayList;
 
 public class IQuestionnaireTestEmptyFile {
 
-    private IQuestionnaireImplMockEmptyFile iQuestionnaireImplMockEmptyFile = new IQuestionnaireImplMockEmptyFile();
+    private IQuestionnaire iQuestionnaire = new IQuestionnaireImplMockEmptyFile();
 
 
     @Test
     public void testChargerQuestionnaireEmptyFileException() throws FileNotAvailableException, EmptyFileException, CannotReadFileException {
         Assertions.assertThrows(EmptyFileException.class, () -> {
-            iQuestionnaireImplMockEmptyFile.chargerQuestionnaire("src/test/resources/EmptyFile");
+            iQuestionnaire.chargerQuestionnaire("src/test/resources/EmptyFile");
         });
 
 

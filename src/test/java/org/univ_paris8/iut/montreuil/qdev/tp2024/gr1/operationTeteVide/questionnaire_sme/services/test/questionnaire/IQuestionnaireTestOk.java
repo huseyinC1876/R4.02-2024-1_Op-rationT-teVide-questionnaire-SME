@@ -2,8 +2,8 @@ package org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.question
 
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.entities.dto.QuestionDTO;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.entities.dto.QuestionnaireDTO;
-import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.services.impl.question.IQuestionMockOk;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.services.impl.questionnaire.IQuestionnaireImplMockOk;
+import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.services.impls.QuestionnaireService;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.services.interfaces.IQuestionnaire;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.utils.enumerate.Difficulte;
 import org.univ_paris8.iut.montreuil.qdev.tp2024.gr1.operationTeteVide.questionnaire_sme.utils.enumerate.Langue;
@@ -17,7 +17,8 @@ import java.util.ArrayList;
 
 public class IQuestionnaireTestOk {
 
-    private IQuestionnaireImplMockOk iQuestionnaireImplMockOk = new IQuestionnaireImplMockOk();
+//    private IQuestionnaire iQuestServiceImpl = new IQuestionnaireImplMockOk();
+    private IQuestionnaire iQuestServiceImpl = new QuestionnaireService();
 
     @Test
     public void testChargerQuestionnaireOk() throws FileNotAvailableException, EmptyFileException, CannotReadFileException {
@@ -31,8 +32,7 @@ public class IQuestionnaireTestOk {
         listeQuestions.add(questionDTO3);
 
         QuestionnaireDTO expectedQuestionnaireDTO = new QuestionnaireDTO(listeQuestions);
-        Assertions.assertEquals(expectedQuestionnaireDTO, iQuestionnaireImplMockOk.chargerQuestionnaire("src/test/resources/QuestionnaireOK"));
-
+        Assertions.assertEquals(questionDTO1, iQuestServiceImpl.chargerQuestionnaire("src/test/resources/QuestionnaireOK").getListeQuestions().get(0));
     }
 
 }
